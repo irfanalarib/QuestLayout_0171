@@ -3,6 +3,7 @@ package com.example.pertemuan_4
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.magnifier
@@ -31,5 +32,10 @@ fun ActivityPertama(modifier : Modifier){
             fontSize = 22.sp
         )
         Spacer(modifier = Modifier.height(25.dp))
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(1f)
+                .padding(12.dp)
+        )
     }
 }
